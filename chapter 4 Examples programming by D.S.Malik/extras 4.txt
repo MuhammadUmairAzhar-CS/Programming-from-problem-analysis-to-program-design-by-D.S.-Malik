@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+int num1, num2, larger; //Line 1
+if (num1 > num2); //Line 2; error
+larger = num1; //Line 3
+else //Line 4
+larger = num2; //Line 5
+return 0;
+}
